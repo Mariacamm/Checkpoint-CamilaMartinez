@@ -1,0 +1,24 @@
+52 git init
+   53  git add .
+   54  git commit -am "commit 01 CamilaMartinez"
+   55  git push origin main
+   56  git checkout -b feature
+   57  mkdir hardware
+   58  mkdir software
+   59  mkdir seguridadInformatica
+   60  mv seguridadInformatica SeguridadInformatica
+   61  mv software Software
+   62  mv hardware Hardware
+   63  git add .
+   64  git commit -m "commit 02 CamilaMartinez"
+   65  git push origin feature
+   66  git checkout main
+   67  mv main.js resumenHardware.txt
+   68  mv index.html resumenSoftware.txt
+   69  cd ..
+   70  cd Desktop/Digital\ House/Checkpoint-CamilaMartinez/
+   71  ls
+   72  echo "2. Adobe Photoshop" > resumenSoftware.txt
+   73  git add .
+   74  git commit -am "commit 03 CamilaMartinez"
+   75  git push origin main
