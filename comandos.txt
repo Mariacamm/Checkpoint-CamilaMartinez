@@ -1,4 +1,4 @@
-   52 git init
+   52  git init
    53  git add .
    54  git commit -am "commit 01 CamilaMartinez"
    55  git push origin main
@@ -18,7 +18,8 @@
    69  cd ..
    70  cd Desktop/Digital\ House/Checkpoint-CamilaMartinez/
    71  ls
-   72  echo "2. Adobe Photoshop" > resumenSoftware.txt
-   73  git add .
-   74  git commit -am "commit 03 CamilaMartinez"
-   75  git push origin main
+   72  echo "1. Google Chrome 2. Adobe Photoshop 3. Facebook" > resumenSoftware.txt
+   73  echo "1. Rutador Inalámbrico (Router) 2. Disco Duro Externo 3. Auriculares Inalámbricos" > resumenHardware.txt
+   74  git add .
+   75  git commit -am "commit 03 CamilaMartinez"
+   76  git push origin main
